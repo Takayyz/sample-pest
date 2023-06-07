@@ -6,5 +6,10 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "Domain/"
+        }
     }
 }
